@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+   background: rgb(231, 227, 227);
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   width: 30%;
+   margin: 30px auto;
+}
+
+.choose-sign {
+   display: flex;
+}
+
+img.sign {
+   width: 50px;
+   transition: 0.15s all;
+}
+
+.restart {
+   margin-top: 10px;
+   width: 100px;
+   padding: 5px 15px;
+   visibility: hidden;
+}
+
+.lines {
+   display: flex;
+   flex-direction: column;
+   height: 60vh;
+   width: 550px;
+   margin-top: 10px;
+}
+
+.result {
+   display: flex;
+}
+
+.box {
+   display: flex;
+}
+
+.box>* {
+   flex: 1;
+}
+
+.box img {
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   width: 60px;
+   height: 60px;
+}
+
+.score {
+   width: 250px;
+   height: 60px;
+   margin-left: 10px;
+   display: flex;
+}
+
+.score>img {
+   width: 25%;
+}
+
+.lines .win, .lines .lose {
+   display: none;
+   text-transform: uppercase;
+   width: 400px;
+   margin-top: 30px;
+}
+
+a {
+   text-decoration: none;
+   display: block;
+   padding: 5px 0;
+   font-weight: lighter;
+   width: 200px;
+   text-align: center;
+   border: 1px solid gray;
+   color: black;
+   font-weight: 300;
+}
+
+.lines .win.active, .lines .lose.active {
+   display: inherit;
+   display: flex;
+   flex-direction: column;
+}
+
+.correct-combination {
+   display: flex;
+}
+
+.correct-combination img {
+   width: 50px;
+   margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+   .container {
+      width: 80%;
+      margin: 0 auto;
+   }
+   .container>* {
+      margin-bottom: 20px;
+   }
+}
