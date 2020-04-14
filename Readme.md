@@ -6,6 +6,6 @@ Igra se samo preko tastature,
 
 znaci su herc, karo, pik, tref, skocko, zvezda
 
-koriste se samo pocetna imena znaka
+koriste se samo pocetno slovo znaka
 
 hhkk => herc herc karo karo
