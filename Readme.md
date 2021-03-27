@@ -1,6 +1,6 @@
-Igra nekad najpoznatija preko slagalice kao Duga, danas kao skocko, na engleskom Mastermind.
+https://duga.surge.sh/
 
-1.0 version
+Igra nekad najpoznatija preko slagalice kao Duga, danas kao skocko, na engleskom Mastermind.
 
 Igra se samo preko tastature,
 
