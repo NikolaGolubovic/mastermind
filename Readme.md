@@ -9,3 +9,5 @@ znaci su herc, karo, pik, tref, skocko, zvezda
 koristi se pocetno slovo znaka
 
 hhkk => herc herc karo karo
+
+backspace za korekciju
